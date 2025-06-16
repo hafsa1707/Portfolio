@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hafsabanu Baloch - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+   <!-- ===== MODAL BOX ===== -->
+     
+   <div class="modal" id="myModal">
+       <div class="modal-content">
+           <span class="close"><i class="fa fa-times"></i></span>
+           <div class="content-title">
+               <span>Skills</span>
+           </div>
+           <div class="skills-box">
+               <span class="skills-label">Java</span>
+               <span class="skills-label">SpringBoot</span>
+               <span class="skills-label">RestAPI</span>
+               <span class="skills-label">Hibernate</span>
+               <span class="skills-label">Apache Maven</span>
+               <span class="skills-label">SQL</span>
+               <span class="skills-label">PostgreSQL</span>
+			   <span class="skills-label">AZURE - CI/CD Pipeline Deployment</span>
+               <span class="skills-label">HTML</span>
+			   <span class="skills-label">CSS</span>
+			   <span class="skills-label">JavaScript</span>
+			   <span class="skills-label">HP Automation Tools(HP UFT, HP LoadRunner)</span>
+			   <span class="skills-label">VersionControl - SVN, Git</span>
+           </div>
+       </div>
+   </div>
+
+
+   <div class="modal" id="myModal2">
+    <div class="modal-content">
+        <span class="close"><i class="fa fa-times"></i></span>
+        <div class="content-title">
+            <span>About Me</span>
+        </div>
+         <p>I am a Java Backend Developer with over 5+ years of hands-on experience in designing, developing, and maintaining scalable backend systems.
+			Proficient in Spring Boot, Hibernate, and microservices architecture, I am committed to delivering clean, efficient, and maintainable code.
+			I have a strong track record of working with relational databases like MySQL and PostgreSQL.
+			I am skilled in implementing CI/CD pipelines, version control with Git, and working in Agile/Scrum environments.</p>
+    </div>
+</div>
+
+
+
+   <!-- ===== END OF  MODAL BOX ===== -->
+
+   <!-- ===== WRAPPER ===== -->
+    <div class="wrapper">
+        <!-- ===== NAVIGATION BAR ===== -->
+        <nav class="nav">
+            <div class="nav_logo">
+                <span>Hafsabanu Baloch</span>
+            </div>
+            <div class="right_nav">
+                <div class="nav_menu" id="navMenu">
+                    <ul class="link_list">
+                        <div class="close-menu">
+                            <i class="fa fa-times" onclick="menuClose()"></i>
+                        </div>
+                        <li class="list">
+                            <a href="#" class="link">Home</a>
+                        </li>
+                        <li class="list">
+                            <a href="#myModal" class="link" id="myBtn">Skills <i class="fa-solid fa-caret-down"></i></a>
+                            <div class="description_box">
+                                <div class="link_description" id="myDescription">
+                                    <div class="content-title">
+                                        <span>I'm Skilled In</span>
+                                    </div>
+                                    <div class="desc_content">
+                                        <span class="skills-label">Java</span>
+										<span class="skills-label">SpringBoot</span>
+										<span class="skills-label">RestAPI</span>
+										<span class="skills-label">Hibernate</span>
+										<span class="skills-label">Apache Maven</span>
+										<span class="skills-label">SQL</span>
+										<span class="skills-label">PostgreSQL</span>
+										<span class="skills-label">AZURE - CI/CD Pipeline Deployment</span>
+										<span class="skills-label">HTML</span>
+										<span class="skills-label">CSS</span>
+										<span class="skills-label">JavaScript</span>
+										<span class="skills-label">HP Automation Tools(HP UFT, HP LoadRunner)</span>
+										<span class="skills-label">VersionControl - SVN, Git</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        
+                        <li class="list">
+                            <a href="#myModal2" class="link" id="myBtn">About <i class="fa-solid fa-caret-down"></i></a>
+                            <div class="description_box about_box">
+                                <div class="link_description" id="myDescription">
+                                    <div class="content-title">
+                                        <span>About Me</span>
+                                    </div>
+                                    <div class="desc_content">
+                                        <p>I am a Java Backend Developer with over 5+ years of hands-on experience in designing, developing, and maintaining scalable backend 		systems.
+										Proficient in Spring Boot, Hibernate, and microservices architecture, I am committed to delivering clean, efficient, and maintainable code.
+										I have a strong track record of working with relational databases like MySQL and PostgreSQL.
+										I am skilled in implementing CI/CD pipelines, version control with Git, and working in Agile/Scrum environments.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="nav_button">
+                    <a href="assets/pdf/Hafsa_CV.pdf" class="btn"><i class="fa fa-download"></i> <span>Download CV</span></a>
+                </div>
+                <div class="mode">
+                    <div class="moon-sun" id="toggle-switch">
+                        <i class="fa fa-moon" id="moon"></i>
+                        <i class="fa fa-sun" id="sun"></i>
+                    </div>
+                </div>
+                <div class="nav_menu_btn">
+                    <i class="fa fa-bars" onclick="myMenuFunction()"></i>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- ===== MAIN ===== -->
+        <main class="main">
+            <div class="row hero">
+                <div class="col col-1">
+                    <div class="social_icons">
+                         <!-- ===== Icon animated circle ===== -->
+                        <div class="icon_circle"></div>
+
+                        <!-- ===== Social Icons  ===== -->
+                        <a href="https://www.linkedin.com/in/hafsa-baloch-48b128142" target="_blank" style="text-decoration: none;" rel="noopener noreferrer">
+                            <i class="fa-brands fa-linkedin-in icon"></i>
+                        </a>
+                        
+                        <a href="https://github.com" target="_blank" style="text-decoration: none;" rel="noopener noreferrer">
+                            <i class="fa-brands fa-github icon"></i>
+                        </a>
+                    </div>
+                    <!-- ===== HERO TEXT  ===== -->
+
+                    <div class="hero_box">
+                        <div class="hello">
+                            <p>Hello, I Am</p>
+                        </div>
+                        <div class="job">
+                            <span class="multiText"></span>
+                        </div>
+                        <div class="hero_description">
+                            <p>Experienced Backend developer with over 5+ years of hands-on experience in designing, developing, and maintaining scalable backend systems.</p>
+                        </div>
+                        <div class="hero_btn">
+                            <button class="btn_2"><a href="assets/pdf/Hafsa_CV.pdf">Download CV</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-2">
+            
+                    <div class="hero-image">
+                        <img src="assets/img/Hafsa1.jpg" alt="">
+                    </div>
+                    <div class="clients">
+                        <i class="fa-regular fa-user"></i>
+                        <div class="clients-content">
+                            <span>3+</span>
+                            <p>Clients Project</p>
+                        </div>
+                    </div>
+                    <div class="experience">
+                        <i class="fa-regular fa-star"></i>
+                        <div class="xp-content">
+                            <span>5+</span>
+                            <p>Years of experience</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        // Types JS
+        var typingEffect = new Typed(".multiText",{
+            strings: ["Java Backend Developer"],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 2000
+        })
+        // End of typed JS
+    </script>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
