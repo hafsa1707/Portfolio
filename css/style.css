@@ -520,7 +520,7 @@ body.dark #moon{
 /* ===== Responsive - Media Query: 574px ===== */
 @media (max-width: 574px) {
     .nav_logo span{
-        font-size: 26px;
+        font-size: 15px;
     }
     .nav_button .btn :not(i){
         display: none;
