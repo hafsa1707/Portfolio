@@ -1,3 +1,2 @@
 # Portfolio
-
- =>  Template Name    :  Personal Portfolio HTML Template
+Name    :  Personal Portfolio HTML Template
